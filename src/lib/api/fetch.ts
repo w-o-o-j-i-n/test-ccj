@@ -11,4 +11,4 @@ export async function getCurrencies(date: string): Promise<{ usd: Record<string,
       throw new Error('Failed to fetch currencies');
     }
   }
-  
+  // This function will try to return the data or any errors when fetching data from api.
